@@ -1,4 +1,5 @@
 import { WeekWeather } from "./components/WeekWeather";
+import { SunTime } from "./components/SunTime";
 
 import backgroundImage from "./assets/background.png";
 
@@ -17,7 +18,7 @@ function App() {
       <div>
         <div>
           <div>Air Quality</div>
-          <div>Sun Time</div>
+          <SunTime />
         </div>
         <WeekWeather />
       </div>

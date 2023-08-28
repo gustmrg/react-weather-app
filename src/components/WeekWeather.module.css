@@ -6,6 +6,7 @@
   padding: 2.5rem;
   border: 2px solid red;
   width: auto;
+  background-color: var(--purple-400);
 }
 
 .weekWeather > img {
