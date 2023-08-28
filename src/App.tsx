@@ -1,5 +1,6 @@
 import { WeekWeather } from "./components/WeekWeather";
 import { SunTime } from "./components/SunTime";
+import { Temperature } from "./components/Temperature";
 
 import backgroundImage from "./assets/background.png";
 
@@ -14,7 +15,9 @@ function App() {
         height: "100vh",
       }}
     >
-      <div>Temperature Now</div>
+      <div>
+        <Temperature />
+      </div>
       <div>
         <div>
           <div>Air Quality</div>
